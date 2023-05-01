@@ -10,7 +10,7 @@ body{
     place-items: center;
     margin: 0;
     padding: 0 24px;
-    background-image: url(matrixback.jpg);
+    background-image: url(login-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Ubuntu";
@@ -18,16 +18,18 @@ body{
     animation: rotate 10s infinite alternate linear;
 
 }
-.login-card{
+.login-card {
     position: relative;
     z-index: 3;
     width: 100%;
     margin: 0 20px;
     padding: 70px 30px 44px;
     border-radius: 1.25rem;
-    background:#fff ;
+    border: 4px solid red; /* Add a 4px solid red border */
+    background:#6315a3;
     text-align: center;
-}
+  }
+  
 
 .login-card > h2{
     font-size: 36px;
@@ -72,7 +74,7 @@ font-size: 1rem;
 
 
 .login-form > a{
-    color: #216ce7;
+    color: yellow;
     font-size: 0.9rem;
     text-align: left;
     text-decoration: none;
@@ -81,7 +83,31 @@ font-size: 1rem;
 }
 
 .login-form > a:hover{
-    color: #10449A;
+    color:red;
+}
+.login-form>a:visited{
+    color:yellow;
+}
+
+#loginbutton{
+    background-color: white; /* Green */
+    color: black;
+    font-weight: normal;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    
+}
+#loginbutton:hover{
+    background-color: red; /* White */
+    color: yellow; /* Green */
+    font-weight: bold;
+ 
+    cursor: pointer;
 }
 
 @keyframes rotate{

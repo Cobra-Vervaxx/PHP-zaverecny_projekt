@@ -11,11 +11,9 @@
     <div class="login-card">
         <h2>Login</h2>
         <form class="login-form" method="post" action="">
-            <input type="text" id="name" placeholder="Name" name="name"><br>
-            <input type="password" id="password" placeholder="Password" name="password"><br>
-            <a href="reset.php">Forgotten password</a><br>
-            <a href="newacc.php">Dont have account yet? Create one now</a><br>
-            <button type="submit" name="submit" id="loginbutton">Submit</button>
+            <input type="password" id="password" placeholder="New password" name="password"><br>
+            <input type="password" id="repeatpasswd" placeholder="Repeat password" name="repeatpasswd"><br>
+            <button type="submit" name="submit" id="loginbutton">Reset password</button>
         </form>
     </div>  
 </body>
